@@ -83,7 +83,7 @@ body {
   padding: 80px 180px 80px 100px;
 }
 
-.main img {
+.cv-pic {
   float: left;
   width: 250px;
   margin-right: 20px;
@@ -125,4 +125,9 @@ body {
 
 .caminho li {
   display: inline-block;
+}
+
+.social-img {
+  width: 50px;
+  margin-right: 10px;
 }
