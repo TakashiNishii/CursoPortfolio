@@ -8,12 +8,13 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="css/styles.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet"> 
+		<script type="text/javascript" src="js/scripts.js"></script>
 	</head>
 
 
 	<body>
 
-		<div class="navigation">
+		<div id="navigation" class="navigation">
 			<ul>
 				<li>
 					<a href="index.html"> Home </a>
@@ -27,128 +28,128 @@
 				<li>
 					<a href="contato.html"> Contato </a>
 				</li>
-				<li class="threeline-icon">&#9776;</li>
+				<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
 			</ul>
 		</div>
 
-			<div class="main">	
+		<div class="main">	
 
-				<ul class="caminho">
-					<li><a href="index.html"> Home </a></li>
-					<li>></li>
-					<li>Currículo</li>
-				</ul>
+			<ul class="caminho">
+				<li><a href="index.html"> Home </a></li>
+				<li>></li>
+				<li>Currículo</li>
+			</ul>
 
-				<h1>Currículo</h1>
+			<h1>Currículo</h1>
 
-					
-					<h2>Dados Pessoais</h2>
-					<hr>
+				
+				<h2>Dados Pessoais</h2>
+				<hr>
 
-						<img class="cv-pic" src="img/eu-profile.jpg" alt="Foto de Ygor Takashi Nishi">
-						<h3>Nome:</h3>
+					<img class="cv-pic" src="img/eu-profile.jpg" alt="Foto de Ygor Takashi Nishi">
+					<h3>Nome:</h3>
 
-							<p>Ygor Takashi Nishi</p>
+						<p>Ygor Takashi Nishi</p>
 
-						<h3>Data de Nascimento:</h3>
+					<h3>Data de Nascimento:</h3>
 
-							<p>18/07/2000</p>
+						<p>18/07/2000</p>
 
-						<h3>Residência:</h3>
+					<h3>Residência:</h3>
 
-							<p>Ponta Porã - MS, Brasil</p>
+						<p>Ponta Porã - MS, Brasil</p>
 
-						<h3 style="clear:left">Idiomas:</h3>
+					<h3 style="clear:left">Idiomas:</h3>
 
-							<p>Português (Nativo)</p>
-							<p>Inglês (Intermediário)</p>
-							<p>Espanhol (Básico)</p>
-							
-					
-					<h2>Sobre Mim</h2>
-					<hr>
-							<p>Sou estudante de Ciências da computação na UFMS, formado em Técnico em informática pela IFMS e estagiário Full-stack, mas no estágio também desenvolvo pra mobile e faço alguns dashboards</p>
-
-							<p>Eu gosto de programar e o que eu não souber dou um jeitinho para aprender, e foi assim que acabei acumulando diversos conhecimentos sobre varias coisas nesse mundo dev. </p>
-
-							<p>Comecei a gostar da área quando no ensino médio participava de competições de robótica e acabava sempre ficando mais para a parte de programação dos robôs. E por ter sido
-								um ensino médio integrado com técnico em informática, eu achei que era o meu ponto de partida para a minha carreira profissional por ter me identificado bastante com o curso. </p>
-
-					
-					<h2>Educação</h2>
-					<hr>
-
-						<h3>Janeiro de 2019 - Em andamento</h3>
-
-							<p>Bacharelado em Ciências da computação / Graduação / Universidade Federal de Mato Grosso do Sul (UFMS)</p>
-
-						<h3>Janeiro de 2015- Dezembro de 2018</h3>
-
-							<p>Técnico em informática / Tecnólogo / Instituto Federal de Mato Grosso do Sul (IFMS) </p>
-
-						<h3>Janeiro de 2015- Dezembro de 2018</h3>
-
-							<p>Ensino Médio / Instituto Federal de Mato Grosso do Sul (IFMS) </p>
-
-					
-					<h2>Habilidades</h2>
-					<hr>
-
-						<h3>Banco de dados</h3>
-
-							<p>SQLServer / MySQL / PostgreSQL / MongoDB / MariaDB</p>
+						<p>Português (Nativo)</p>
+						<p>Inglês (Intermediário)</p>
+						<p>Espanhol (Básico)</p>
 						
-						<h3>Desenvolvimento Front-end</h3>
+				
+				<h2>Sobre Mim</h2>
+				<hr>
+						<p>Sou estudante de Ciências da computação na UFMS, formado em Técnico em informática pela IFMS e estagiário Full-stack, mas no estágio também desenvolvo pra mobile e faço alguns dashboards</p>
 
-							<p>HTML / CSS / AngularJS / VueJS / React / BootStrap / SCSS / MDL / JSP.</p>
+						<p>Eu gosto de programar e o que eu não souber dou um jeitinho para aprender, e foi assim que acabei acumulando diversos conhecimentos sobre varias coisas nesse mundo dev. </p>
 
-						<h3>Desenvolvimento Back-End</h3>
+						<p>Comecei a gostar da área quando no ensino médio participava de competições de robótica e acabava sempre ficando mais para a parte de programação dos robôs. E por ter sido
+							um ensino médio integrado com técnico em informática, eu achei que era o meu ponto de partida para a minha carreira profissional por ter me identificado bastante com o curso. </p>
 
-							<p>Java / PHP / JavaScript / Python (Django) / C.</p>
+				
+				<h2>Educação</h2>
+				<hr>
 
-						<h3>Desenvolvimento Mobile</h3>
+					<h3>Janeiro de 2019 - Em andamento</h3>
 
-							<p>Flutter</p>
-							
-						<h3>Outros</h3>
+						<p>Bacharelado em Ciências da computação / Graduação / Universidade Federal de Mato Grosso do Sul (UFMS)</p>
 
-							<p>Git / Docker / PowerBI</p>	
+					<h3>Janeiro de 2015- Dezembro de 2018</h3>
 
+						<p>Técnico em informática / Tecnólogo / Instituto Federal de Mato Grosso do Sul (IFMS) </p>
+
+					<h3>Janeiro de 2015- Dezembro de 2018</h3>
+
+						<p>Ensino Médio / Instituto Federal de Mato Grosso do Sul (IFMS) </p>
+
+				
+				<h2>Habilidades</h2>
+				<hr>
+
+					<h3>Banco de dados</h3>
+
+						<p>SQLServer / MySQL / PostgreSQL / MongoDB / MariaDB</p>
 					
-					<h2>Experiência de Trabalho</h2>
-					<hr>
-						<h3>Março de 2021 - Atualmente </h3>
+					<h3>Desenvolvimento Front-end</h3>
 
-							<p> Estagiario desenvolvedor Full Stack e Mobile  - Ciarama Máquinas John Deere  - Ponta Porã - MS</p>
+						<p>HTML / CSS / AngularJS / VueJS / React / BootStrap / SCSS / MDL / JSP.</p>
 
-						<h3>Janeiro de 2021 - Abril de 2021</h3>
+					<h3>Desenvolvimento Back-End</h3>
 
-							<p>Estagiario desenvolvedor Full Stack  - A vida é feita de desconto - Remoto</p>
+						<p>Java / PHP / JavaScript / Python (Django) / C.</p>
 
-						<h3>Novembro de 2020 - Janeiro de 2021</h3>
+					<h3>Desenvolvimento Mobile</h3>
 
-							<p>Técnico em informática - Alê informática - Ponta Porã - MS </p>
-
-						<h3>Agosto de 2019 - Julho de 2020</h3>
-
-							<p>Estagiario professor de robótica  - Escola Municipal Prefeito Orlando Mendes Gonçalvez - Ponta Porã - MS </p>
-							
-						<h3>Maio de 2017 - Setembro de 2017</h3>
-
-							<p>Estagiario professor de robótica  - Escola Estadual João Brembatti Calvoso - Ponta Porã - MS </p>
+						<p>Flutter</p>
 						
+					<h3>Outros</h3>
+
+						<p>Git / Docker / PowerBI</p>	
+
+				
+				<h2>Experiência de Trabalho</h2>
+				<hr>
+					<h3>Março de 2021 - Atualmente </h3>
+
+						<p> Estagiario desenvolvedor Full Stack e Mobile  - Ciarama Máquinas John Deere  - Ponta Porã - MS</p>
+
+					<h3>Janeiro de 2021 - Abril de 2021</h3>
+
+						<p>Estagiario desenvolvedor Full Stack  - A vida é feita de desconto - Remoto</p>
+
+					<h3>Novembro de 2020 - Janeiro de 2021</h3>
+
+						<p>Técnico em informática - Alê informática - Ponta Porã - MS </p>
+
+					<h3>Agosto de 2019 - Julho de 2020</h3>
+
+						<p>Estagiario professor de robótica  - Escola Municipal Prefeito Orlando Mendes Gonçalvez - Ponta Porã - MS </p>
+						
+					<h3>Maio de 2017 - Setembro de 2017</h3>
+
+						<p>Estagiario professor de robótica  - Escola Estadual João Brembatti Calvoso - Ponta Porã - MS </p>
+					
 
 
-					<h2>Contato</h2>
-					<hr>
-							<p>E-mail: ygortn14@gmail.com</p>
-							<p>Telefone: (18) 99668-2139</p>
+				<h2>Contato</h2>
+				<hr>
+						<p>E-mail: ygortn14@gmail.com</p>
+						<p>Telefone: (18) 99668-2139</p>
 
 
-				<a class="back-link" href="index.html">&larr;Voltar ao início<a>
+			<a class="back-link" href="index.html">&larr;Voltar ao início<a>
 
 
-			</div>
+		</div>
 
 				
 
